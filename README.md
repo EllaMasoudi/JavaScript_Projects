@@ -1,2 +1,2 @@
 # JavaScript_Projects
-These projects are wrietten in JavaScript language.
+These projects are written in JavaScript language.
