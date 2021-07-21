@@ -6,7 +6,7 @@ function Call_Loop(){
         X++;
     }
     document.getElementById("Loop").innerHTML = Digit;
-}//This is a loop to count to 5
+}//This is a while loop to count to 5
 
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin"];
 var Content = "";
@@ -58,9 +58,10 @@ let food = {
     Cuisine: "Asian",
     Spice_level: "very hot",
     description: function() {
-        return "This "+ this.Cuisine + this.type + " food is " + this.Spice_level;
+        return "This " + this.Cuisine + this.type + " food is " + this.Spice_level;
     }
 };
 document.getElementById("Food_object").innerHTML = food.description();
+//This is an example of objects that stores different types of data types
 
 
